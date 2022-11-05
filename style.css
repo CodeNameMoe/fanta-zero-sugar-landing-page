@@ -9,13 +9,14 @@
 
 section {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #fff;
+    overflow: hidden;
 }
 
 header {
@@ -101,7 +102,7 @@ header ul li a {
 }
 
 .content .imgBox {
-    width: 600px;
+    width: 100px;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
@@ -249,6 +250,14 @@ header ul li a {
     .thumb li img {
         max-width: 150px;
     
+    }
+
+     .thumb {
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translateX(-50%);
+            display: flex;
     }
 
     .circle {

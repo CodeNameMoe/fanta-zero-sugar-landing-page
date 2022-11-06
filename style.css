@@ -291,7 +291,7 @@ header ul li a {
         transition: all .2s ease-in-out;
     }
 
-    .canSwitch .button:hover {
+    .canSwitch .button:active {
         transform: scale(1.5);
     }
 

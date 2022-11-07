@@ -17,6 +17,4 @@ function toggleMenu() {
     navigation.classList.toggle("active")
 }
 
-function mobileToggle(any) {
-    document.querySelector("#sCan").src = any
-}
+

@@ -175,7 +175,7 @@ header ul li a {
 }
 
 @media (min-width: 1184px){
-    .canSwitch {
+    .wrapper {
         display: none;
     }
 }
@@ -270,30 +270,7 @@ header ul li a {
         display: none;
     } 
 
-    .canSwitch {
-        position: absolute;
-        left: 48%;
-        bottom: 20px;
-        transform: translateX(-50%);
-        display: flex;
-        align-items: center;
-    }
-
-    .canSwitch img {
-        max-width: 150px;
-        
-    }
-
-    .canSwitch .button {
-        max-width: 50px;
-        filter: invert(1);
-        cursor: pointer;
-        transition: all .2s ease-in-out;
-    }
-
-    .canSwitch .button:active {
-        transform: scale(1.5);
-    }
+    
 
 
     .circle {
@@ -308,6 +285,30 @@ header ul li a {
         border-bottom-left-radius: 5px;
     }
 
+    .wrapper {
+        max-width: 1200px;
+    }
+    .wrapper .carousel {
+        white-space: nowrap;
+        position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translateX(-50%);
+            display: flex;
+        
+    }
+
+    .carousel img {
+        height: 100px;
+        object-fit: cover;
+        width: calc(100% / 3);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .carousel img:active {
+        transform: translateY(-30px);
+    }
     
     
 }

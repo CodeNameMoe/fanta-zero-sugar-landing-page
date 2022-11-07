@@ -17,12 +17,6 @@ function toggleMenu() {
     navigation.classList.toggle("active")
 }
 
-function mobileToggle() {
-    let src = "";
-
-    let canArr = ["/assets/2-p.png", "/assets/3-o.png", "/assets/4-r.png"]
-
-    let rNum = Math.floor(Math.random() * 3)
-
-    return canArr[rNum]
+function mobileToggle(any) {
+    document.querySelector("#sCan").src = any
 }

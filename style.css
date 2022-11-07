@@ -105,7 +105,7 @@ header ul li a {
     width: 100px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 35px;
     margin-top: 50px;
 }
 
@@ -294,8 +294,6 @@ header ul li a {
     .canSwitch .button:active {
         transform: scale(1.5);
     }
-
-    
 
 
     .circle {

@@ -283,7 +283,7 @@ header ul li a {
 
   .wrapper {
     max-width: 1200px;
-    margin-left: auto;
+    
   }
   .wrapper .carousel {
     white-space: nowrap;
@@ -292,6 +292,7 @@ header ul li a {
     bottom: 20px;
     transform: translateX(-50%);
     display: flex;
+    margin-left: auto;
   }
 
   .carousel img {

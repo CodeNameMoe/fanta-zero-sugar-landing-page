@@ -250,6 +250,7 @@ header ul li a {
 
   .content .imgBox img {
     max-width: 700px;
+
   }
 
   /* .thumb li img {
@@ -301,6 +302,7 @@ header ul li a {
     width: calc(100% / 3);
     cursor: pointer;
     transition: 0.2s;
+    align-items: center;
   }
 
   .carousel img:active {

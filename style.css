@@ -302,7 +302,7 @@ header ul li a {
     width: calc(100% / 3);
     cursor: pointer;
     transition: 0.2s;
-    margin-left: 14px;
+    
   }
 
   .carousel img:first-child {

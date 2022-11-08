@@ -299,7 +299,7 @@ header ul li a {
   .carousel img {
     height: 100px;
     object-fit: cover;
-    width: calc(100% / 3);
+    width: 100%;
     cursor: pointer;
     transition: 0.2s;
     align-items: center;

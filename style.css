@@ -241,6 +241,7 @@ header ul li a {
     .content {
         flex-direction: column;
         margin-top: 100px;
+        margin-left: 5rem;
     }
     .content .textBox h2 {
         font-size: 2.5em;

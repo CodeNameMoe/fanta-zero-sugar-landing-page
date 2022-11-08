@@ -275,7 +275,7 @@ header ul li a {
   }
 
   .sci {
-    position: relative;
+    position: absolute;
     background: #ff8f01;
     right: 0;
     width: 50px;
